@@ -4,10 +4,14 @@ Informatics ITS Graph Theory Class - Group 2
 
 ## Members
 
-- Ahmad Farras Favian Al Efasi - 5025251005
-- Daniel Pedrosaputra - 5025251171
+| No. | Name | NRP |
+|---:|---|---|
+| 1 | Ahmad Farras Favian Al Efasi | 5025251005 |
+| 2 | Daniel Pedrosaputra | 5025251171 |
 
-## Description
+---
+
+## Problem Description
 
 This repository contains implementations of three algorithms for solving the CSES Mail Delivery problem:
 
@@ -17,7 +21,7 @@ This repository contains implementations of three algorithms for solving the CSE
 
 The objective is to find an Eulerian circuit that starts at vertex 1, uses every edge exactly once, and returns to vertex 1.
 
-## Algorithms
+## Algorithms Introduction
 
 ### Fleury's Algorithm
 
