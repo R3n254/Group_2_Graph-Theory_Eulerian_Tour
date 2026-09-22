@@ -98,6 +98,12 @@ AI tools used:
 - ChatGPT
 - Claude
 
-ChatGPT was used to assist with understanding the assignment, generating the C++ implementations, testing the sample case, and preparing the README.
+Claude was used to assist with understanding the assignment.
+ChatGPT was used during for generating the C++ implementations, testing the sample case, and preparing the README.
 
-Claude was used during the preparation of the report and assignment materials.
+Prompt:
+1. "Explain to me what I should do for the assignment (Refurbished W3 Eulerian Tour.pdf)."
+2. "Give me an example of another algorithm that suits beside fleury’s and hierholzer’s."
+3. "Make a readme file for the repository based on this report."
+4. "help me make the c++ solution for the algorithms."
+
