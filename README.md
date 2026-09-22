@@ -1,1 +1,84 @@
+# Eulerian Tour Algorithms
 
+Informatics ITS Graph Theory Class - Group 2
+
+## Members
+
+- Ahmad Farras Favian Al Efasi - 5025251005
+- Daniel Pedrosaputra - 5025251171
+
+## Description
+
+This repository contains implementations of three algorithms for solving the CSES Mail Delivery problem:
+
+1. Fleury's Algorithm
+2. Hierholzer's Algorithm
+3. Left-Hand Rule Algorithm
+
+The objective is to find an Eulerian circuit that starts at vertex 1, uses every edge exactly once, and returns to vertex 1.
+
+## Algorithms
+
+### Fleury's Algorithm
+
+Fleury's Algorithm selects unused edges while avoiding bridges whenever another edge is available.
+
+Time Complexity: O(E^2)
+
+### Hierholzer's Algorithm
+
+Hierholzer's Algorithm constructs an Eulerian circuit by following unused edges and combining cycles.
+
+Time Complexity: O(E)
+
+### Left-Hand Rule Algorithm
+
+The Left-Hand Rule follows unused edges according to a fixed local edge ordering.
+
+Time Complexity: O(E)
+
+## Requirements
+
+- C++17 compatible compiler
+
+## How to Run
+
+Compile one of the programs using a C++ compiler.
+
+Example for Fleury's Algorithm:
+
+g++ -std=c++17 fleury.cpp -o fleury
+
+Run:
+
+./fleury
+
+The same process can be used for the other implementations by changing the file name.
+
+## Sample Input
+
+6 8
+1 2
+1 3
+2 3
+2 4
+2 6
+3 5
+3 6
+4 5
+
+## Sample Output
+
+1 2 3 5 4 2 6 3 1
+
+The exact Eulerian circuit may differ depending on the order in which edges are selected.
+
+## AI Tools Usage
+
+AI tools used:
+- ChatGPT
+- Claude
+
+ChatGPT was used to assist with understanding the assignment, generating the C++ implementations, testing the sample case, and preparing the README.
+
+Claude was used during the preparation of the report and assignment materials.
