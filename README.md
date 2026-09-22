@@ -99,6 +99,7 @@ AI tools used:
 - Claude
 
 Claude was used to assist with understanding the assignment.
+
 ChatGPT was used during for generating the C++ implementations, testing the sample case, and preparing the README.
 
 Prompt:
