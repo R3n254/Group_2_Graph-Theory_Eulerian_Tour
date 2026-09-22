@@ -45,18 +45,30 @@ Time Complexity: O(E)
 
 Compile one of the programs using a C++ compiler.
 
-Example for Fleury's Algorithm:
+For Fleury's Algorithm:
 
+```bash
 g++ -std=c++17 fleury.cpp -o fleury
-
-Run:
-
 ./fleury
+```
 
-The same process can be used for the other implementations by changing the file name.
+For Hierholzer's Algorithm:
+
+```bash
+g++ -std=c++17 hierholzer.cpp -o hierholzer
+./hierholzer
+```
+
+For Left-Hand Rule Algorithm:
+
+```bash
+g++ -std=c++17 left_hand_rule.cpp -o left_hand_rule
+./left_hand_rule
+```
 
 ## Sample Input
 
+```text
 6 8
 1 2
 1 3
@@ -66,10 +78,13 @@ The same process can be used for the other implementations by changing the file 
 3 5
 3 6
 4 5
+```
 
 ## Sample Output
 
+```text
 1 2 3 5 4 2 6 3 1
+```
 
 The exact Eulerian circuit may differ depending on the order in which edges are selected.
 
